@@ -34,3 +34,11 @@ let myAllInfo = Object.assign({}, myInfo1, myInfo2);
 Object.getOwnPropertySymbols(myAllInfo); // [Symbol(type), Symbol(type)]
 
 ```
+
+P.S.
+函数function参数 arguments 对象
+```js
+Arguments(4) [1, 2, 3, 4, callee: ƒ, Symbol(Symbol.iterator): ƒ]
+```
+
+
