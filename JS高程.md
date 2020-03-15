@@ -31,4 +31,14 @@ let result = re.exec('The Quick Brown Fox Jumps Over The Lazy Dog');
 `解析器首先读取声明——而表达式则在执行到所在代码时解释执行`
 
 
-严格模式下，`this` undefined
+6. 严格模式下的一些行为
+
+7. 如何在 chrome console 中使用 'use strict'
+```js
+(function()
+{
+    'use strict';
+    i = 10
+    console.log(i) //报错Uncaught ReferenceError: a is not defined(…)
+}())
+```
