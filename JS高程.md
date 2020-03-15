@@ -42,3 +42,7 @@ let result = re.exec('The Quick Brown Fox Jumps Over The Lazy Dog');
     console.log(i) //报错Uncaught ReferenceError: a is not defined(…)
 }())
 ```
+
+8. 什么是寄生组合继承？
+
+9. 闭包作用和副作用
