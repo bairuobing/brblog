@@ -2,7 +2,7 @@
 
 ### instanceof 运算符 & Array.isArray() 产生的原因
 1. 既然已经有了 instanceof 运算符，为什么还要发明一个Array.isArray() 呢？
-instanceof //无法判断跨 frame 的数组类型
+instanceof //无法判断跨 frame 的数组类型，因为跨了**全局作用域 window.Array**  
 ```js
 var iframe = document.createElement('iframe');
 document.body.append(iframe);
